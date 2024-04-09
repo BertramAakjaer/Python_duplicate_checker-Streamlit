@@ -42,7 +42,7 @@ From your command line:
 
 # Clone this repository
 
-git  clone  https://github.com/BertramAakjaer/Python_duplicate_checker-Streamlit.git
+git  clone  https://github.com/BertramAakjaer/Python_duplicate_file_checker.git
 
   
 
@@ -113,6 +113,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ##  **Socials**
 
->  [Aakjaer.site](https://aakjaer.site) &nbsp;&middot;&nbsp;
+>  [aakjaer.site](www.aakjaer.site) &nbsp;&middot;&nbsp;
 >  GitHub [@BertramAakjær](https://github.com/BertramAakjaer) &nbsp;&middot;&nbsp;
 >  Twitter [@BertramAakjær](https://twitter.com/BertramAakjaer)
