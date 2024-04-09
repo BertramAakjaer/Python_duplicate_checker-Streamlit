@@ -113,6 +113,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ##  **Socials**
 
->  [aakjaer.site](www.aakjaer.site) &nbsp;&middot;&nbsp;
+>  [aakjaer.site](https://www.aakjaer.site) &nbsp;&middot;&nbsp;
 >  GitHub [@BertramAakjær](https://github.com/BertramAakjaer) &nbsp;&middot;&nbsp;
 >  Twitter [@BertramAakjær](https://twitter.com/BertramAakjaer)
