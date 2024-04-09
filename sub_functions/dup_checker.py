@@ -48,6 +48,14 @@ def compare_files(primary_folder, destination_folder, progress_bar, time_left, c
 
             else:
                 new_path = os.path.join(destination_folder, file)
+                
+                temp_path = os.path.split(new_path)[0]
+                try:
+                    # Create the directory structure recursively, handling potential permission errors
+                    os.makedirs(temp_path, exist_ok=True)
+                except OSError as error:
+                    print(f"Error creating folder structure: {error}")
+                    
                 shutil.copy(file_pathlib, new_path)
                 os.remove(file_pathlib)
                 currently_deleted_file.text(f"Successfully deleted {file}")
