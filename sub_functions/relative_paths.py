@@ -12,7 +12,6 @@ def list_files(directory):
     
     # for loop going over every file in the folder and subfolders
     for root, dirs, files in os.walk(directory):
-        print("hey")
         for file in files:
             # Get relative path by removing the directory path
             relative_path = os.path.relpath(os.path.join(root, file), directory)
