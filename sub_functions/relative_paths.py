@@ -23,8 +23,9 @@ def list_files(directory):
                 
     # Adding files from root
     for file in os.listdir(directory):
-        relative_paths.append(file)
-        byte_size += os.path.getsize(os.path.join(directory, file))
+        if os.path.isfile(os.path.join(directory, file)):
+            relative_paths.append(file)
+            byte_size += os.path.getsize(os.path.join(directory, file))
     
     # Returns a list
     return byte_size, relative_paths
