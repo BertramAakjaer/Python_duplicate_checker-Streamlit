@@ -1,23 +1,17 @@
 
 #  **Python duplicate checker using streamlit**
 
->  **Note**
-
+>  **Note**     
 >  If you're using any other OS than windows this will probaly not work, because it is depending on the python libary os which is made for windows only, [see this doc for more info](https://docs.python.org/3/library/os.html)
 
-  
-
 ##  **Key Features**
-
-  
-
 *  Use two different folders *(One for the duplicates and another for dumping the registered duplicates into)*
 
 *  Duplicates will not be deleted but moved to ensure that the wrong files isn't deleted
 
 *  Loading bar showing the progress of searched files compared to files to search
 
--  With text that shows an estimate of time to run the task
+    *  With text that shows an estimate of time to run the task
 
 *  End text that shows the checking has been complete and how many files have been transferred
 
@@ -25,50 +19,28 @@
 
 *  [Streamlit](https://streamlit.io/) library to UI
 
-  
-  
-
 ##  **Installation and setup**
-
-  
-
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Python 1.12.2](https://www.python.org/downloads/?ref=gfxhacks.com) many other python version should work as well, but 1.12.2 was used for the creation of the script.
-
-  
 
 From your command line:
 
 ```bash
 
 # Clone this repository
-
-git  clone  https://github.com/BertramAakjaer/Python_duplicate_file_checker.git
-
-  
+git clone https://github.com/BertramAakjaer/Python_duplicate_file_checker.git
 
 # Install streamlit library
-
-pip  install  streamlit
-
-  
+pip install streamlit
 
 # Enter the directory
-
-cd  Python_duplicate_checker-Streamlit/
-
-  
+cd Python_duplicate_checker-Streamlit/
 
 # Run the script using streamlit and it should open in your default browser
-
-python  -m  streamlit  run  main.py
-
+python -m streamlit run main.py
 ```
 
 ##  **Usage**
-
 ![Image](screenshots/folders_screenshot.webp)
-
-  
 
 **1.** Firstly go to your prefered file explorer and find the path to folder including duplicated files. Paste this into the first textbox named *"Folder with duplicates"*.
 
@@ -76,9 +48,7 @@ python  -m  streamlit  run  main.py
 
 **3.** Then you're ready and should just be able to press the button *"Start duplicate check"* and the program should do the rest for you.
 
-  
 ![Image](screenshots/progress_screenshot.webp)
-
 ![Image](screenshots/deleted_files_screenshot.webp)
 
 ## **Logic behind MD5 hashes**  
@@ -97,22 +67,13 @@ MD5 hashes aren't that secure for use with passwords or other types of sensitive
 <br/>
 
 *The point are gathered from an article comparing MD5 hashes and SHA1 hashes, it can be read here:*
-
 - [Comparing MD5 and SHA1](https://www.geeksforgeeks.org/difference-between-md5-and-sha1/)
-
-
 
 ##  **License**
 
-  
-
 This project is licensed under the [MIT License](LICENSE).
 
-  
-  
-
 ##  **Socials**
-
 >  [aakjaer.site](https://www.aakjaer.site) &nbsp;&middot;&nbsp;
 >  GitHub [@BertramAakjær](https://github.com/BertramAakjaer) &nbsp;&middot;&nbsp;
 >  Twitter [@BertramAakjær](https://twitter.com/BertramAakjaer)
